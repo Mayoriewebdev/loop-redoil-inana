@@ -1,0 +1,195 @@
+/* Reset & Global */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image:url("images/background.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+/* SECTION */
+
+.loop-red-oil-section{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+/* .loop-red-oil-container{
+  width:100%;
+  max-width:420px;
+} */
+
+
+/* Badge */
+
+.loop-red-oil-badge{
+  margin-bottom:25px;
+}
+
+.loop-red-oil-badge img{
+  width:140px;
+  height:auto;
+  display:block;
+}
+
+
+/* Title */
+
+.loop-red-oil-title{
+  margin-bottom:25px;
+}
+
+.loop-red-oil-title img{
+  width:100%;
+  max-width:280px;
+  height:auto;
+  display:block;
+}
+
+
+/* Description */
+
+.loop-red-oil-desc{
+  margin-bottom:10px;
+}
+
+.loop-red-oil-desc img{
+  width:100%;
+  max-width:320px;
+  height:auto;
+  display:block;
+}
+
+
+/* Product Image */
+
+.loop-red-oil-image{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.loop-red-oil-image img{
+  width:100%;
+  max-width:260px;
+  height:auto;
+  object-fit:contain;
+  margin-top:40px;
+}
+
+
+/* Bottom */
+
+.loop-red-oil-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  gap:10px;
+}
+
+
+/* Price */
+
+.loop-red-oil-price img{
+  width:160px;
+  height:auto;
+  display:block;
+}
+
+
+/* Button */
+
+.loop-red-oil-btn{
+  cursor:pointer;
+  display:inline-block;
+  transition:transform 0.3s ease, opacity 0.3s ease;
+}
+
+.loop-red-oil-btn img{
+  width:170px;
+  height:auto;
+  display:block;
+  transition:transform 0.3s ease, opacity 0.3s ease;
+}
+
+.loop-red-oil-btn:hover img{
+  transform:scale(1.05);
+  opacity:0.9;
+}
+
+
+/* Tablet */
+
+@media (max-width:768px){
+
+.loop-red-oil-container{
+  max-width:380px;
+}
+
+.loop-red-oil-image img{
+  max-width:240px;
+}
+
+.loop-red-oil-price img{
+  width:150px;
+}
+
+.loop-red-oil-btn img{
+  width:160px;
+}
+
+}
+
+
+/* Mobile */
+
+@media (max-width:480px){
+
+.loop-red-oil-section{
+  padding:30px 16px;
+}
+
+.loop-red-oil-container{
+  max-width:100%;
+}
+
+.loop-red-oil-badge img{
+  width:120px;
+}
+
+.loop-red-oil-title img{
+  max-width:220px;
+}
+
+.loop-red-oil-desc img{
+  max-width:260px;
+}
+
+.loop-red-oil-image img{
+  max-width:210px;
+}
+
+.loop-red-oil-price img{
+  width:130px;
+}
+
+.loop-red-oil-btn img{
+  width:140px;
+}
+
+.loop-red-oil-bottom{
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+}
